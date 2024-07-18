@@ -1,0 +1,748 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00275791875F068E2FF594847BD189F0 /* SFExStyle_UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3748E502C34885F02EB25C5C0A8DA78 /* SFExStyle_UIViewController.swift */; };
+		19B17696ADFEE41E9075240C559DD507 /* Pods-RotatorExample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 949B1EAF0906D4D1D5582333657AB2D2 /* Pods-RotatorExample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1AEBE89F9D9E8A8A361DFE17CCD3AE78 /* SFExStyle_String.swift in Sources */ = {isa = PBXBuildFile; fileRef = A270C6B0E9D138E484277E2B73A5C2C0 /* SFExStyle_String.swift */; };
+		25768D2B152DEF14591F20C36619B0D9 /* SFExStyle_UINavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48FE79086391AA2CE87E0B087496B473 /* SFExStyle_UINavigationController.swift */; };
+		2D05128326898A2098AA9FBDD746B12C /* SFExStyle_UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D9BB3C2F73FBB34A9271CF219B38D2 /* SFExStyle_UIView.swift */; };
+		2F71762BBEAC6A3789153E1A1D91171F /* SFExStyle_CGFloat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61682E2CE244DBE6A90F50B8E792F30B /* SFExStyle_CGFloat.swift */; };
+		3596F7D4A50A3A0B0A5DF0EA9A8ECB8C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FE46B11FEBCBB7C689EB07A5E57BD38 /* QuartzCore.framework */; };
+		373FDB586910DDFFAF1AB8572E9DA9BB /* SFExStyle_UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417FDE1BBEC77F34424FC8BFB5BDBBA8 /* SFExStyle_UIImageView.swift */; };
+		4B6F8D2A99515C0DAFA2ABEF52CB745B /* SFExStyle_UIApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54FC92ADD7510F54BA8D860F5803919 /* SFExStyle_UIApplication.swift */; };
+		4D74907CA1CBE5CD10EFE6DAD4C68978 /* SFExStyle_UISwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1488847308258C951A49CFBC798FD8C9 /* SFExStyle_UISwitch.swift */; };
+		4E13EF7EA86D3618C1FAD5BCC5B62E53 /* SFExStyle_Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51F314A1FCD082230699E5234B9806C /* SFExStyle_Date.swift */; };
+		519F07E768554652C5330D33470C3468 /* SFExStyle_UIDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96245D8BE57786CB78B34720731BB919 /* SFExStyle_UIDevice.swift */; };
+		55680193BEF9878D00750171DBC09474 /* SFStyleKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F190A71D0CDF5195B706A62F6DA6565 /* SFStyleKit-dummy.m */; };
+		69BC235F0CD1DBD111DED0F0E568FD12 /* SFExStyle_UITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6407C48F90B0F4EEDAE86455E9673592 /* SFExStyle_UITextField.swift */; };
+		6AD237F0288AD942872BDC7AFB509CC2 /* SFExStyle_CLLocationCoordinate2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2493D7300C0EE65357E96B876202B208 /* SFExStyle_CLLocationCoordinate2D.swift */; };
+		722BDF8F190FA17F283EA98442BFC74A /* SFExStyle_Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2018D1DECEEBF61FEFC0C5397BD13CCD /* SFExStyle_Array.swift */; };
+		75B18363F53ECF8CCBCBD74301B35403 /* SFExStyle_UIAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41FA839F857A13BD473573217C6B039 /* SFExStyle_UIAlertController.swift */; };
+		7999D58BECF6C9223B545901421ECF77 /* SFExStyle_UIScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E7FDCDA0384E18CB810DF74582DE41 /* SFExStyle_UIScrollView.swift */; };
+		7ABF44A7F0268D99E7ED1C7BA47FE795 /* SFExStyle_UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DB8660924463AA786B644E98804BFE9 /* SFExStyle_UIButton.swift */; };
+		7C5CD5A92351A2464A1E65973659F1B3 /* SFExStyle_UIControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F7D14B8C53D980576F10C095272DA6 /* SFExStyle_UIControl.swift */; };
+		82317C173230EC7418CCA7C246C828C1 /* SFExStyle_UICollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925995FBE5E1E6760F47D3D91F6E2493 /* SFExStyle_UICollectionView.swift */; };
+		835B50FC61ABEC451FB65E4B7CB98C20 /* SFExStyle_UITextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11E135510057057E4DD83B01160D675 /* SFExStyle_UITextView.swift */; };
+		917551E4E486F13B281C87676039B4E6 /* SFExStyle_Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73E2226CF8ADB1EA545E0B07EE1843B /* SFExStyle_Double.swift */; };
+		9223B829DC28D3562F528F49859809E2 /* Pods-RotatorExample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A08A50E9A7EAB55A25420ADA8DEFEB7B /* Pods-RotatorExample-dummy.m */; };
+		93A83D4F3787FC96421640A5B558F014 /* SFStyleKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BF8281FB6C6EA4A6CE3A83D01EB89608 /* SFStyleKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1512EFA066A901877CF20547BC8DA86 /* SFExStyle_CALayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72AF09E9D61365F8EE8C524EF8B6A1E /* SFExStyle_CALayer.swift */; };
+		A36607DCA7FC88FD5B385B1240E973E5 /* SFExStyle_Float.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE56FCC4D004753CC1EDD0AA40689A5C /* SFExStyle_Float.swift */; };
+		A426F2F49FE28D1F5D666E15592D64D2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B1530FBFAA1690D27A135E4CC85AA07 /* Foundation.framework */; };
+		AFB535A81C11EDCC6DA9BEF62B1D99D6 /* SFExStyle_UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A52AAEEBC587C1372DD3AE50CBC6DAC /* SFExStyle_UITableView.swift */; };
+		B12D84497A836EFD84DEF312AE3E35CB /* SFExStyle_CLPlacemark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B539FDA7370754BCAD32C03E1E5F299 /* SFExStyle_CLPlacemark.swift */; };
+		B5172EEFE16A01883171B205700F3E70 /* SFExStyle_UICollectionViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E30391390DEE666F43C42EE8565628F /* SFExStyle_UICollectionViewFlowLayout.swift */; };
+		B5800D6CB46CC48D4EC91DD26FA7D26A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B1530FBFAA1690D27A135E4CC85AA07 /* Foundation.framework */; };
+		BDA5B239E9FFB93D8057F38B7ADB9F61 /* SFExStyle_UIStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C875E504B4DC27901A06938FE9C173B /* SFExStyle_UIStackView.swift */; };
+		C5EC1332E09974E71C9B21ABB1866C2E /* SFExStyle_Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D866AD1DA5DA6E0DDA9C0EBC59B99CF /* SFExStyle_Dictionary.swift */; };
+		D50674FB008CC754338FC4D41D6419C7 /* SFExStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBBDA88C269BA83AB065ABCAD95F05D /* SFExStyle.swift */; };
+		DC2602FCD2EF20B3CDB3FABDB21E57A0 /* SFExStyle_Int.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E80EFC8785E2C173281A39F7F584A0B /* SFExStyle_Int.swift */; };
+		DC29FFEFB8CE25A24C168E74F4CD872B /* SFExStyle_UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005AB0983F26DD1EB17BDF15EAD8AEA7 /* SFExStyle_UIColor.swift */; };
+		E573AFE95FD535235D6EE161992B589E /* SFExStyle_UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D897A5987509DA1EEEFC826DD97B57 /* SFExStyle_UILabel.swift */; };
+		E712994453FDE83CA4D4A6037274FB24 /* SFExStyle_UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A14DA64967E6A93EB424AA5158C6BF9 /* SFExStyle_UIImage.swift */; };
+		F0DE6E303B077229E10AC03734B3DB70 /* SFExStyle_UISlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6762F9CF21D16A6AB17D4B412CD4F326 /* SFExStyle_UISlider.swift */; };
+		F7EFFD961B83CF801DA038A741CC2EBC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CE2AD31F00D0EF9C522211BDDBF6C3C /* UIKit.framework */; };
+		FBFCC95D00FCA1FC2CA5B2DB1C11AE83 /* SFExStyle_Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CEF6CAC1BD8F060DDDFF6724EBA3539 /* SFExStyle_Bundle.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1265C9D426B741A2D9F1BF59EBF18C46 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 568E271C73D4AA83DC9F00C440BF868D;
+			remoteInfo = SFStyleKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		005AB0983F26DD1EB17BDF15EAD8AEA7 /* SFExStyle_UIColor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SFExStyle_UIColor.swift; path = SFStyleKit/Classes/UIKit/SFExStyle_UIColor.swift; sourceTree = "<group>"; };
+		04819CEB8495B38616E290E03472ABA3 /* SFStyleKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SFStyleKit.release.xcconfig; sourceTree = "<group>"; };
+		0BF9E71D1FEDD5082EF723A302358824 /* SFStyleKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SFStyleKit-Info.plist"; sourceTree = "<group>"; };
+		0CEF6CAC1BD8F060DDDFF6724EBA3539 /* SFExStyle_Bundle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SFExStyle_Bundle.swift; path = SFStyleKit/Classes/Foundation/SFExStyle_Bundle.swift; sourceTree = "<group>"; };
+		1488847308258C951A49CFBC798FD8C9 /* SFExStyle_UISwitch.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SFExStyle_UISwitch.swift; path = SFStyleKit/Classes/UIKit/SFExStyle_UISwitch.swift; sourceTree = "<group>"; };
+		19A5CF1C0978A7669BF109198AA96655 /* Pods-RotatorExample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RotatorExample-acknowledgements.plist"; sourceTree = "<group>"; };
+		1A52AAEEBC587C1372DD3AE50CBC6DAC /* SFExStyle_UITableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SFExStyle_UITableView.swift; path = SFStyleKit/Classes/UIKit/SFExStyle_UITableView.swift; sourceTree = "<group>"; };
+		1C875E504B4DC27901A06938FE9C173B /* SFExStyle_UIStackView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SFExStyle_UIStackView.swift; path = SFStyleKit/Classes/UIKit/SFExStyle_UIStackView.swift; sourceTree = "<group>"; };
+		2018D1DECEEBF61FEFC0C5397BD13CCD /* SFExStyle_Array.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SFExStyle_Array.swift; path = SFStyleKit/Classes/Foundation/SFExStyle_Array.swift; sourceTree = "<group>"; };
+		2493D7300C0EE65357E96B876202B208 /* SFExStyle_CLLocationCoordinate2D.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SFExStyle_CLLocationCoordinate2D.swift; path = SFStyleKit/Classes/CLLocation/SFExStyle_CLLocationCoordinate2D.swift; sourceTree = "<group>"; };
+		28B08C9FD82C0BEABA4297A558EB1754 /* SFStyleKit */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SFStyleKit; path = SFStyleKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		417FDE1BBEC77F34424FC8BFB5BDBBA8 /* SFExStyle_UIImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SFExStyle_UIImageView.swift; path = SFStyleKit/Classes/UIKit/SFExStyle_UIImageView.swift; sourceTree = "<group>"; };
+		42D228B247112CC9C6869E6EFB9D9EE2 /* Pods-RotatorExample */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-RotatorExample"; path = Pods_RotatorExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		48B6D03B446A8C885338B2C28743CE6A /* Pods-RotatorExample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RotatorExample-acknowledgements.markdown"; sourceTree = "<group>"; };
+		48FE79086391AA2CE87E0B087496B473 /* SFExStyle_UINavigationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SFExStyle_UINavigationController.swift; path = SFStyleKit/Classes/UIKit/SFExStyle_UINavigationController.swift; sourceTree = "<group>"; };
+		4B1530FBFAA1690D27A135E4CC85AA07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4B8063165AE34BF6B5E8B6FF6C56A67D /* Pods-RotatorExample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RotatorExample.modulemap"; sourceTree = "<group>"; };
+		50D9BB3C2F73FBB34A9271CF219B38D2 /* SFExStyle_UIView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SFExStyle_UIView.swift; path = SFStyleKit/Classes/UIKit/SFExStyle_UIView.swift; sourceTree = "<group>"; };
+		59F7D14B8C53D980576F10C095272DA6 /* SFExStyle_UIControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SFExStyle_UIControl.swift; path = SFStyleKit/Classes/UIKit/SFExStyle_UIControl.swift; sourceTree = "<group>"; };
+		5B539FDA7370754BCAD32C03E1E5F299 /* SFExStyle_CLPlacemark.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SFExStyle_CLPlacemark.swift; path = SFStyleKit/Classes/CLLocation/SFExStyle_CLPlacemark.swift; sourceTree = "<group>"; };
+		61682E2CE244DBE6A90F50B8E792F30B /* SFExStyle_CGFloat.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SFExStyle_CGFloat.swift; path = SFStyleKit/Classes/Foundation/SFExStyle_CGFloat.swift; sourceTree = "<group>"; };
+		6407C48F90B0F4EEDAE86455E9673592 /* SFExStyle_UITextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SFExStyle_UITextField.swift; path = SFStyleKit/Classes/UIKit/SFExStyle_UITextField.swift; sourceTree = "<group>"; };
+		6762F9CF21D16A6AB17D4B412CD4F326 /* SFExStyle_UISlider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SFExStyle_UISlider.swift; path = SFStyleKit/Classes/UIKit/SFExStyle_UISlider.swift; sourceTree = "<group>"; };
+		6D866AD1DA5DA6E0DDA9C0EBC59B99CF /* SFExStyle_Dictionary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SFExStyle_Dictionary.swift; path = SFStyleKit/Classes/Foundation/SFExStyle_Dictionary.swift; sourceTree = "<group>"; };
+		6F190A71D0CDF5195B706A62F6DA6565 /* SFStyleKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SFStyleKit-dummy.m"; sourceTree = "<group>"; };
+		8A14DA64967E6A93EB424AA5158C6BF9 /* SFExStyle_UIImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SFExStyle_UIImage.swift; path = SFStyleKit/Classes/UIKit/SFExStyle_UIImage.swift; sourceTree = "<group>"; };
+		8A92B7A39DEF6EFD47AED0B73F67B6B3 /* Pods-RotatorExample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RotatorExample-frameworks.sh"; sourceTree = "<group>"; };
+		8CE2AD31F00D0EF9C522211BDDBF6C3C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		8E30391390DEE666F43C42EE8565628F /* SFExStyle_UICollectionViewFlowLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SFExStyle_UICollectionViewFlowLayout.swift; path = SFStyleKit/Classes/UIKit/SFExStyle_UICollectionViewFlowLayout.swift; sourceTree = "<group>"; };
+		925995FBE5E1E6760F47D3D91F6E2493 /* SFExStyle_UICollectionView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SFExStyle_UICollectionView.swift; path = SFStyleKit/Classes/UIKit/SFExStyle_UICollectionView.swift; sourceTree = "<group>"; };
+		949B1EAF0906D4D1D5582333657AB2D2 /* Pods-RotatorExample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RotatorExample-umbrella.h"; sourceTree = "<group>"; };
+		96245D8BE57786CB78B34720731BB919 /* SFExStyle_UIDevice.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SFExStyle_UIDevice.swift; path = SFStyleKit/Classes/UIKit/SFExStyle_UIDevice.swift; sourceTree = "<group>"; };
+		9651189A3859D13CBF66AB667E2D1239 /* SFStyleKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SFStyleKit-prefix.pch"; sourceTree = "<group>"; };
+		9B76C84CB137A4B131AC027CF1E560EF /* Pods-RotatorExample-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RotatorExample-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DB8660924463AA786B644E98804BFE9 /* SFExStyle_UIButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SFExStyle_UIButton.swift; path = SFStyleKit/Classes/UIKit/SFExStyle_UIButton.swift; sourceTree = "<group>"; };
+		9E80EFC8785E2C173281A39F7F584A0B /* SFExStyle_Int.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SFExStyle_Int.swift; path = SFStyleKit/Classes/Foundation/SFExStyle_Int.swift; sourceTree = "<group>"; };
+		9FE46B11FEBCBB7C689EB07A5E57BD38 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		A08A50E9A7EAB55A25420ADA8DEFEB7B /* Pods-RotatorExample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RotatorExample-dummy.m"; sourceTree = "<group>"; };
+		A270C6B0E9D138E484277E2B73A5C2C0 /* SFExStyle_String.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SFExStyle_String.swift; path = SFStyleKit/Classes/Foundation/SFExStyle_String.swift; sourceTree = "<group>"; };
+		A3748E502C34885F02EB25C5C0A8DA78 /* SFExStyle_UIViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SFExStyle_UIViewController.swift; path = SFStyleKit/Classes/UIKit/SFExStyle_UIViewController.swift; sourceTree = "<group>"; };
+		A41FA839F857A13BD473573217C6B039 /* SFExStyle_UIAlertController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SFExStyle_UIAlertController.swift; path = SFStyleKit/Classes/UIKit/SFExStyle_UIAlertController.swift; sourceTree = "<group>"; };
+		A72AF09E9D61365F8EE8C524EF8B6A1E /* SFExStyle_CALayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SFExStyle_CALayer.swift; path = SFStyleKit/Classes/QuartzCore/SFExStyle_CALayer.swift; sourceTree = "<group>"; };
+		A912C5FA9582882A30B30C7F7F6D23BF /* SFStyleKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SFStyleKit.modulemap; sourceTree = "<group>"; };
+		AE56FCC4D004753CC1EDD0AA40689A5C /* SFExStyle_Float.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SFExStyle_Float.swift; path = SFStyleKit/Classes/Foundation/SFExStyle_Float.swift; sourceTree = "<group>"; };
+		B51F314A1FCD082230699E5234B9806C /* SFExStyle_Date.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SFExStyle_Date.swift; path = SFStyleKit/Classes/Foundation/SFExStyle_Date.swift; sourceTree = "<group>"; };
+		B54FC92ADD7510F54BA8D860F5803919 /* SFExStyle_UIApplication.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SFExStyle_UIApplication.swift; path = SFStyleKit/Classes/UIKit/SFExStyle_UIApplication.swift; sourceTree = "<group>"; };
+		BBBBDA88C269BA83AB065ABCAD95F05D /* SFExStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SFExStyle.swift; path = SFStyleKit/Classes/SFExStyle.swift; sourceTree = "<group>"; };
+		BF8281FB6C6EA4A6CE3A83D01EB89608 /* SFStyleKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SFStyleKit-umbrella.h"; sourceTree = "<group>"; };
+		CF0FEAE83D753DB793F679A4F033AEC1 /* Pods-RotatorExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RotatorExample.release.xcconfig"; sourceTree = "<group>"; };
+		D11E135510057057E4DD83B01160D675 /* SFExStyle_UITextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SFExStyle_UITextView.swift; path = SFStyleKit/Classes/UIKit/SFExStyle_UITextView.swift; sourceTree = "<group>"; };
+		D2D897A5987509DA1EEEFC826DD97B57 /* SFExStyle_UILabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SFExStyle_UILabel.swift; path = SFStyleKit/Classes/UIKit/SFExStyle_UILabel.swift; sourceTree = "<group>"; };
+		D9E7FDCDA0384E18CB810DF74582DE41 /* SFExStyle_UIScrollView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SFExStyle_UIScrollView.swift; path = SFStyleKit/Classes/UIKit/SFExStyle_UIScrollView.swift; sourceTree = "<group>"; };
+		E73E2226CF8ADB1EA545E0B07EE1843B /* SFExStyle_Double.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SFExStyle_Double.swift; path = SFStyleKit/Classes/Foundation/SFExStyle_Double.swift; sourceTree = "<group>"; };
+		F0F34BCB6EE48FF48C66D66B83864E84 /* Pods-RotatorExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RotatorExample.debug.xcconfig"; sourceTree = "<group>"; };
+		F1716B726507EBB21A13CB4D28BC24F1 /* SFStyleKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SFStyleKit.debug.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		283FED439B13D137919095F7050987B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A426F2F49FE28D1F5D666E15592D64D2 /* Foundation.framework in Frameworks */,
+				3596F7D4A50A3A0B0A5DF0EA9A8ECB8C /* QuartzCore.framework in Frameworks */,
+				F7EFFD961B83CF801DA038A741CC2EBC /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F62C7001A2A53742E441070FD0BB7FB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5800D6CB46CC48D4EC91DD26FA7D26A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03C5C200A0787E300053CFA8F53CA094 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F0A778C0229E9BF1FD97896B93F3272B /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		570F048C911128BA498783D7F972441A /* Pods-RotatorExample */ = {
+			isa = PBXGroup;
+			children = (
+				4B8063165AE34BF6B5E8B6FF6C56A67D /* Pods-RotatorExample.modulemap */,
+				48B6D03B446A8C885338B2C28743CE6A /* Pods-RotatorExample-acknowledgements.markdown */,
+				19A5CF1C0978A7669BF109198AA96655 /* Pods-RotatorExample-acknowledgements.plist */,
+				A08A50E9A7EAB55A25420ADA8DEFEB7B /* Pods-RotatorExample-dummy.m */,
+				8A92B7A39DEF6EFD47AED0B73F67B6B3 /* Pods-RotatorExample-frameworks.sh */,
+				9B76C84CB137A4B131AC027CF1E560EF /* Pods-RotatorExample-Info.plist */,
+				949B1EAF0906D4D1D5582333657AB2D2 /* Pods-RotatorExample-umbrella.h */,
+				F0F34BCB6EE48FF48C66D66B83864E84 /* Pods-RotatorExample.debug.xcconfig */,
+				CF0FEAE83D753DB793F679A4F033AEC1 /* Pods-RotatorExample.release.xcconfig */,
+			);
+			name = "Pods-RotatorExample";
+			path = "Target Support Files/Pods-RotatorExample";
+			sourceTree = "<group>";
+		};
+		5F9A7B2434582784BF92BEC993750964 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				42D228B247112CC9C6869E6EFB9D9EE2 /* Pods-RotatorExample */,
+				28B08C9FD82C0BEABA4297A558EB1754 /* SFStyleKit */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B46ECE04D6F1069B52F3C8089367E551 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A912C5FA9582882A30B30C7F7F6D23BF /* SFStyleKit.modulemap */,
+				6F190A71D0CDF5195B706A62F6DA6565 /* SFStyleKit-dummy.m */,
+				0BF9E71D1FEDD5082EF723A302358824 /* SFStyleKit-Info.plist */,
+				9651189A3859D13CBF66AB667E2D1239 /* SFStyleKit-prefix.pch */,
+				BF8281FB6C6EA4A6CE3A83D01EB89608 /* SFStyleKit-umbrella.h */,
+				F1716B726507EBB21A13CB4D28BC24F1 /* SFStyleKit.debug.xcconfig */,
+				04819CEB8495B38616E290E03472ABA3 /* SFStyleKit.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SFStyleKit";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				03C5C200A0787E300053CFA8F53CA094 /* Frameworks */,
+				F6A1A55C69F7AE4AFC55651DA4D81F1F /* Pods */,
+				5F9A7B2434582784BF92BEC993750964 /* Products */,
+				D92DF1A82D68E933879ACCC71E17FC23 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D92DF1A82D68E933879ACCC71E17FC23 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				570F048C911128BA498783D7F972441A /* Pods-RotatorExample */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		E132CA84E1C4DC6994DA0638C8C7F61A /* SFStyleKit */ = {
+			isa = PBXGroup;
+			children = (
+				BBBBDA88C269BA83AB065ABCAD95F05D /* SFExStyle.swift */,
+				2018D1DECEEBF61FEFC0C5397BD13CCD /* SFExStyle_Array.swift */,
+				0CEF6CAC1BD8F060DDDFF6724EBA3539 /* SFExStyle_Bundle.swift */,
+				A72AF09E9D61365F8EE8C524EF8B6A1E /* SFExStyle_CALayer.swift */,
+				61682E2CE244DBE6A90F50B8E792F30B /* SFExStyle_CGFloat.swift */,
+				2493D7300C0EE65357E96B876202B208 /* SFExStyle_CLLocationCoordinate2D.swift */,
+				5B539FDA7370754BCAD32C03E1E5F299 /* SFExStyle_CLPlacemark.swift */,
+				B51F314A1FCD082230699E5234B9806C /* SFExStyle_Date.swift */,
+				6D866AD1DA5DA6E0DDA9C0EBC59B99CF /* SFExStyle_Dictionary.swift */,
+				E73E2226CF8ADB1EA545E0B07EE1843B /* SFExStyle_Double.swift */,
+				AE56FCC4D004753CC1EDD0AA40689A5C /* SFExStyle_Float.swift */,
+				9E80EFC8785E2C173281A39F7F584A0B /* SFExStyle_Int.swift */,
+				A270C6B0E9D138E484277E2B73A5C2C0 /* SFExStyle_String.swift */,
+				A41FA839F857A13BD473573217C6B039 /* SFExStyle_UIAlertController.swift */,
+				B54FC92ADD7510F54BA8D860F5803919 /* SFExStyle_UIApplication.swift */,
+				9DB8660924463AA786B644E98804BFE9 /* SFExStyle_UIButton.swift */,
+				925995FBE5E1E6760F47D3D91F6E2493 /* SFExStyle_UICollectionView.swift */,
+				8E30391390DEE666F43C42EE8565628F /* SFExStyle_UICollectionViewFlowLayout.swift */,
+				005AB0983F26DD1EB17BDF15EAD8AEA7 /* SFExStyle_UIColor.swift */,
+				59F7D14B8C53D980576F10C095272DA6 /* SFExStyle_UIControl.swift */,
+				96245D8BE57786CB78B34720731BB919 /* SFExStyle_UIDevice.swift */,
+				8A14DA64967E6A93EB424AA5158C6BF9 /* SFExStyle_UIImage.swift */,
+				417FDE1BBEC77F34424FC8BFB5BDBBA8 /* SFExStyle_UIImageView.swift */,
+				D2D897A5987509DA1EEEFC826DD97B57 /* SFExStyle_UILabel.swift */,
+				48FE79086391AA2CE87E0B087496B473 /* SFExStyle_UINavigationController.swift */,
+				D9E7FDCDA0384E18CB810DF74582DE41 /* SFExStyle_UIScrollView.swift */,
+				6762F9CF21D16A6AB17D4B412CD4F326 /* SFExStyle_UISlider.swift */,
+				1C875E504B4DC27901A06938FE9C173B /* SFExStyle_UIStackView.swift */,
+				1488847308258C951A49CFBC798FD8C9 /* SFExStyle_UISwitch.swift */,
+				1A52AAEEBC587C1372DD3AE50CBC6DAC /* SFExStyle_UITableView.swift */,
+				6407C48F90B0F4EEDAE86455E9673592 /* SFExStyle_UITextField.swift */,
+				D11E135510057057E4DD83B01160D675 /* SFExStyle_UITextView.swift */,
+				50D9BB3C2F73FBB34A9271CF219B38D2 /* SFExStyle_UIView.swift */,
+				A3748E502C34885F02EB25C5C0A8DA78 /* SFExStyle_UIViewController.swift */,
+				B46ECE04D6F1069B52F3C8089367E551 /* Support Files */,
+			);
+			name = SFStyleKit;
+			path = SFStyleKit;
+			sourceTree = "<group>";
+		};
+		F0A778C0229E9BF1FD97896B93F3272B /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				4B1530FBFAA1690D27A135E4CC85AA07 /* Foundation.framework */,
+				9FE46B11FEBCBB7C689EB07A5E57BD38 /* QuartzCore.framework */,
+				8CE2AD31F00D0EF9C522211BDDBF6C3C /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F6A1A55C69F7AE4AFC55651DA4D81F1F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E132CA84E1C4DC6994DA0638C8C7F61A /* SFStyleKit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1A29EBCFD6419D89C7C4A151390AAC12 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93A83D4F3787FC96421640A5B558F014 /* SFStyleKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C69A739428C9A95F5DCAD2E619509657 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19B17696ADFEE41E9075240C559DD507 /* Pods-RotatorExample-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		33642F0D36A13EA62A28F7F468AFCE39 /* Pods-RotatorExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FCD77D628BE40574526158DCFDFFC90 /* Build configuration list for PBXNativeTarget "Pods-RotatorExample" */;
+			buildPhases = (
+				C69A739428C9A95F5DCAD2E619509657 /* Headers */,
+				5616F1ACF14C73494FB2CABC6EF5F57C /* Sources */,
+				F62C7001A2A53742E441070FD0BB7FB6 /* Frameworks */,
+				A2633A0DA41A5D03D3FE9A9F5920E39E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				338013186E2780381086001AD15550A4 /* PBXTargetDependency */,
+			);
+			name = "Pods-RotatorExample";
+			productName = Pods_RotatorExample;
+			productReference = 42D228B247112CC9C6869E6EFB9D9EE2 /* Pods-RotatorExample */;
+			productType = "com.apple.product-type.framework";
+		};
+		568E271C73D4AA83DC9F00C440BF868D /* SFStyleKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5B692955922823B930D73EF2D8E3842 /* Build configuration list for PBXNativeTarget "SFStyleKit" */;
+			buildPhases = (
+				1A29EBCFD6419D89C7C4A151390AAC12 /* Headers */,
+				725AC2EB3640AF775CAA68E4B8B351AA /* Sources */,
+				283FED439B13D137919095F7050987B5 /* Frameworks */,
+				28EB9F8F1063D9050BB0DA0953F612F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SFStyleKit;
+			productName = SFStyleKit;
+			productReference = 28B08C9FD82C0BEABA4297A558EB1754 /* SFStyleKit */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 5F9A7B2434582784BF92BEC993750964 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				33642F0D36A13EA62A28F7F468AFCE39 /* Pods-RotatorExample */,
+				568E271C73D4AA83DC9F00C440BF868D /* SFStyleKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		28EB9F8F1063D9050BB0DA0953F612F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2633A0DA41A5D03D3FE9A9F5920E39E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5616F1ACF14C73494FB2CABC6EF5F57C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9223B829DC28D3562F528F49859809E2 /* Pods-RotatorExample-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		725AC2EB3640AF775CAA68E4B8B351AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D50674FB008CC754338FC4D41D6419C7 /* SFExStyle.swift in Sources */,
+				722BDF8F190FA17F283EA98442BFC74A /* SFExStyle_Array.swift in Sources */,
+				FBFCC95D00FCA1FC2CA5B2DB1C11AE83 /* SFExStyle_Bundle.swift in Sources */,
+				A1512EFA066A901877CF20547BC8DA86 /* SFExStyle_CALayer.swift in Sources */,
+				2F71762BBEAC6A3789153E1A1D91171F /* SFExStyle_CGFloat.swift in Sources */,
+				6AD237F0288AD942872BDC7AFB509CC2 /* SFExStyle_CLLocationCoordinate2D.swift in Sources */,
+				B12D84497A836EFD84DEF312AE3E35CB /* SFExStyle_CLPlacemark.swift in Sources */,
+				4E13EF7EA86D3618C1FAD5BCC5B62E53 /* SFExStyle_Date.swift in Sources */,
+				C5EC1332E09974E71C9B21ABB1866C2E /* SFExStyle_Dictionary.swift in Sources */,
+				917551E4E486F13B281C87676039B4E6 /* SFExStyle_Double.swift in Sources */,
+				A36607DCA7FC88FD5B385B1240E973E5 /* SFExStyle_Float.swift in Sources */,
+				DC2602FCD2EF20B3CDB3FABDB21E57A0 /* SFExStyle_Int.swift in Sources */,
+				1AEBE89F9D9E8A8A361DFE17CCD3AE78 /* SFExStyle_String.swift in Sources */,
+				75B18363F53ECF8CCBCBD74301B35403 /* SFExStyle_UIAlertController.swift in Sources */,
+				4B6F8D2A99515C0DAFA2ABEF52CB745B /* SFExStyle_UIApplication.swift in Sources */,
+				7ABF44A7F0268D99E7ED1C7BA47FE795 /* SFExStyle_UIButton.swift in Sources */,
+				82317C173230EC7418CCA7C246C828C1 /* SFExStyle_UICollectionView.swift in Sources */,
+				B5172EEFE16A01883171B205700F3E70 /* SFExStyle_UICollectionViewFlowLayout.swift in Sources */,
+				DC29FFEFB8CE25A24C168E74F4CD872B /* SFExStyle_UIColor.swift in Sources */,
+				7C5CD5A92351A2464A1E65973659F1B3 /* SFExStyle_UIControl.swift in Sources */,
+				519F07E768554652C5330D33470C3468 /* SFExStyle_UIDevice.swift in Sources */,
+				E712994453FDE83CA4D4A6037274FB24 /* SFExStyle_UIImage.swift in Sources */,
+				373FDB586910DDFFAF1AB8572E9DA9BB /* SFExStyle_UIImageView.swift in Sources */,
+				E573AFE95FD535235D6EE161992B589E /* SFExStyle_UILabel.swift in Sources */,
+				25768D2B152DEF14591F20C36619B0D9 /* SFExStyle_UINavigationController.swift in Sources */,
+				7999D58BECF6C9223B545901421ECF77 /* SFExStyle_UIScrollView.swift in Sources */,
+				F0DE6E303B077229E10AC03734B3DB70 /* SFExStyle_UISlider.swift in Sources */,
+				BDA5B239E9FFB93D8057F38B7ADB9F61 /* SFExStyle_UIStackView.swift in Sources */,
+				4D74907CA1CBE5CD10EFE6DAD4C68978 /* SFExStyle_UISwitch.swift in Sources */,
+				AFB535A81C11EDCC6DA9BEF62B1D99D6 /* SFExStyle_UITableView.swift in Sources */,
+				69BC235F0CD1DBD111DED0F0E568FD12 /* SFExStyle_UITextField.swift in Sources */,
+				835B50FC61ABEC451FB65E4B7CB98C20 /* SFExStyle_UITextView.swift in Sources */,
+				2D05128326898A2098AA9FBDD746B12C /* SFExStyle_UIView.swift in Sources */,
+				00275791875F068E2FF594847BD189F0 /* SFExStyle_UIViewController.swift in Sources */,
+				55680193BEF9878D00750171DBC09474 /* SFStyleKit-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		338013186E2780381086001AD15550A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SFStyleKit;
+			target = 568E271C73D4AA83DC9F00C440BF868D /* SFStyleKit */;
+			targetProxy = 1265C9D426B741A2D9F1BF59EBF18C46 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		075A1A45C1E75E74E561C836AF2CA3C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04819CEB8495B38616E290E03472ABA3 /* SFStyleKit.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SFStyleKit/SFStyleKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SFStyleKit/SFStyleKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SFStyleKit/SFStyleKit.modulemap";
+				PRODUCT_MODULE_NAME = SFStyleKit;
+				PRODUCT_NAME = SFStyleKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0A0EFA5182DCCE1DBDED5C734FB467CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0F34BCB6EE48FF48C66D66B83864E84 /* Pods-RotatorExample.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RotatorExample/Pods-RotatorExample-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RotatorExample/Pods-RotatorExample.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		25992760BA8227C3B34EB3BF93BA0B23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1716B726507EBB21A13CB4D28BC24F1 /* SFStyleKit.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SFStyleKit/SFStyleKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SFStyleKit/SFStyleKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SFStyleKit/SFStyleKit.modulemap";
+				PRODUCT_MODULE_NAME = SFStyleKit;
+				PRODUCT_NAME = SFStyleKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2B9E26EAE2CD392AD762421F663075A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		63FAF33E1C55B71A5F5A8B3CC8749F99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D6926D106B5259D2756F64346C90A225 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF0FEAE83D753DB793F679A4F033AEC1 /* Pods-RotatorExample.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RotatorExample/Pods-RotatorExample-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RotatorExample/Pods-RotatorExample.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2FCD77D628BE40574526158DCFDFFC90 /* Build configuration list for PBXNativeTarget "Pods-RotatorExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A0EFA5182DCCE1DBDED5C734FB467CC /* Debug */,
+				D6926D106B5259D2756F64346C90A225 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B9E26EAE2CD392AD762421F663075A1 /* Debug */,
+				63FAF33E1C55B71A5F5A8B3CC8749F99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5B692955922823B930D73EF2D8E3842 /* Build configuration list for PBXNativeTarget "SFStyleKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25992760BA8227C3B34EB3BF93BA0B23 /* Debug */,
+				075A1A45C1E75E74E561C836AF2CA3C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

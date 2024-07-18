@@ -1,0 +1,16 @@
+PODS:
+  - SFStyleKit (0.1.3)
+
+DEPENDENCIES:
+  - SFStyleKit
+
+SPEC REPOS:
+  trunk:
+    - SFStyleKit
+
+SPEC CHECKSUMS:
+  SFStyleKit: ee562a7e112fbe4ccae779014468b1179ccccb62
+
+PODFILE CHECKSUM: 6818c36484d4725539ace210b16cddc1d09cc230
+
+COCOAPODS: 1.13.0
